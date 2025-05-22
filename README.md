@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermercado Deli - Inicio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="Logo/LOGO 1.png" alt="Supermercado Deli">
+                <h1>Supermercado Deli</h1>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar productos...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <div class="user-cart">
+                <a href="perfil.html"><i class="fas fa-user"></i> Mi cuenta</a>
+                <a href="carrito.html"><i class="fas fa-shopping-cart"></i> Carrito (3)</a>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li class="active"><a href="index.html"><i class="fas fa-home"></i> Inicio</a></li>
+            <li><a href="categoria1.html"><i class="fas fa-cheese"></i> Lácteos</a></li>
+            <li><a href="categoria2.html"><i class="fas fa-apple-alt"></i> Frutas/Verduras</a></li>
+            <li><a href="categoria3.html"><i class="fas fa-drumstick-bite"></i> Carnes</a></li>
+            <li><a href="categoria4.html"><i class="fas fa-wine-bottle"></i> Bebidas</a></li>
+            <li><a href="carrito.html"><i class="fas fa-shopping-cart"></i> Carrito</a></li>
+            <li><a href="perfil.html"><i class="fas fa-user"></i> Mi Perfil</a></li>
+        </ul>
+    </nav>
+
+
+    
+    <section class="main-banner">
+        <div class="banner-content">
+            <h2>¡Grandes Ofertas esta Semana!</h2>
+            <p>Hasta 50% de descuento en productos seleccionados</p>
+            <a href="#ofertas" class="btn">Ver Ofertas</a>
+        </div>
+    </section>
+
+    
+    <section class="promotions" id="ofertas">
+        <h2>Promociones Especiales</h2>
+        <div class="promo-grid">
+            <div class="promo-card">
+                <img src="Fotos Productos/yogurt.jpeg" alt="Oferta de lácteos">
+                <div class="promo-info">
+                    <h3>2x1 en Yogures</h3>
+                    <p>Toda la semana en yogures naturales de 1kg</p>
+                    <span class="promo-badge">-50%</span>
+                </div>
+            </div>
+            <div class="promo-card">
+                <img src="Fotos Productos/frutas2.png" alt="Oferta de frutas">
+                <div class="promo-info">
+                    <h3>Frutas de Temporada</h3>
+                    <p>Manzanas, peras y naranjas a precios especiales</p>
+                    <span class="promo-badge">-30%</span>
+                </div>
+            </div>
+            <div class="promo-card">
+                <img src="Fotos Productos/carnes premiun.jpg" alt="Oferta de carnes">
+                <div class="promo-info">
+                    <h3>Carnes Premium</h3>
+                    <p>Filetes de res seleccionados con 25% de descuento</p>
+                    <span class="promo-badge">-25%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="featured-products">
+        <h2>Productos Destacados</h2>
+        <div class="products-grid">
+            <div class="product-card">
+                <img src="Fotos Productos/leche 1 litro.jpeg" alt="Leche Deslactosada">
+                <h3>Leche Deslactosada 1L</h3>
+                <p class="product-desc">Leche fresca sin lactosa, enriquecida con vitaminas</p>
+                <div class="price-container">
+                    <span class="price">Q12.50</span>
+                    <span class="old-price">Q15.00</span>
+                </div>
+                <button class="add-to-cart">Agregar al carrito</button>
+            </div>
+            
+
+            <div class="product-card">
+                <img src="Fotos Productos/redmanzandas.jpeg" alt="Manzanas">
+                <h3>Manzanas Red Delicious</h3>
+                <p class="product-desc">Paquete con 6 manzanas importadas</p>
+                <div class="price-container">
+                    <span class="price">Q18.75</span>
+                </div>
+                <button class="add-to-cart">Agregar al carrito</button>
+            </div>
+            <div class="product-card">
+                <img src="Fotos Productos/pechuga de pollo.jpg" alt="Pechuga de pollo">
+                <h3>Pechuga de Pollo</h3>
+                <p class="product-desc">Pechuga fresca sin hueso, paquete de 1kg</p>
+                <div class="price-container">
+                    <span class="price">Q32.90</span>
+                    <span class="old-price">Q38.50</span>
+                </div>
+                <button class="add-to-cart">Agregar al carrito</button>
+            </div>
+            <div class="product-card">
+                <img src="Fotos Productos/agua mineral .png" alt="Agua mineral">
+                <h3>Agua Mineral 6 pack</h3>
+                <p class="product-desc">Pack con 6 botellas de 1L de agua mineral</p>
+                <div class="price-container">
+                    <span class="price">Q24.00</span>
+                </div>
+                <button class="add-to-cart">Agregar al carrito</button>
+            </div>
+            <div class="product-card">
+                <img src="Fotos Productos/pan integral .png" alt="Pan integral">
+                <h3>Pan Integral 500g</h3>
+                <p class="product-desc">Pan integral recién horneado, paquete de 500g</p>
+                <div class="price-container">
+                    <span class="price">Q8.25</span>
+                    <span class="old-price">Q9.50</span>
+                </div>
+                <button class="add-to-cart">Agregar al carrito</button>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="new-products">
+        <h2>Nuevos Productos</h2>
+        <div class="new-products-slider">
+            
+            <div class="new-product-item">
+                <img src="nuevos productos/descarga.jpg" alt="Nuevo producto 1">
+                <h3>Snacks Saludables</h3>
+                <p>Nueva línea de snacks bajos en calorías</p>
+            </div>
+            <div class="new-product-item">
+                <img src="nuevos productos/cafe organico.jpg" alt="Nuevo producto 2">
+                <h3>Café Orgánico</h3>
+                <p>Café 100% orgánico de altura</p>
+            </div>
+            <div class="new-product-item">
+                <img src="nuevos productos/helado artesanal.jpg" alt="Nuevo producto 3">
+                <h3>Helado Artesanal</h3>
+                <p>Nuevos sabores de helado premium</p>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Horario de atención</h3>
+                <p>Lunes a Viernes: 8:00 - 20:00</p>
+                <p>Sábados y Domingos: 8:00 - 18:00</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <p><i class="fas fa-phone"></i> 1234-5678</p>
+                <p><i class="fas fa-envelope"></i> info@supermercadodeli.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> 12 Calle, Zona 1, Ciudad</p>
+            </div>
+            <div class="footer-section">
+                <h3>Integrantes del equipo</h3>
+                <ul>
+                    <li>Angel Sinay- 20230001</li>
+                    <li>Hugo Alfonso - 20230002</li>
+                    <li>Angel Vanegas - 20230003</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Síguenos</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Supermercado Deli. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
